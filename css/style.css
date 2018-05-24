@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f6f7f8;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+header{
+    border-bottom: 3px solid #044d82;
+    position: relative;
+}
+header .name{
+    margin: 10px 0;
+    font-size: 28px;
+}
+header .job-title{
+    color: #666;
+    margin: 10px 0;
+}
+header .profile-icon{
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
