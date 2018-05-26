@@ -2,59 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dina Hussein - Portfolio</title>
+    <!-- fonts link -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <!-- style -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
+    <!-- start header info -->
     <header>
         <h1 class="name">Dina Hussein Rohaim</h1>
         <p class="job-title">Front-End Web Developer</p>
-        <img class="profile-icon" src="img/icon.png">
+        <img class="profile-icon" src="img/icon.png" alt="profile icon" title="dina">
     </header>
+    <!-- end header -->
+    <!-- start main -->
     <main>
         <div><img class="web-tech" src="img/web-tech.jpg" title="front-end tech" alt="front-end tech"></div>
+        <!-- start section featured-work -->
         <section class="featured-work">
             <h2 class="section-title">Featured Work</h2>
             <div class="section-content">
-                <table>
-                    <tr>
-                        <td>
-                            <article>
-                            <img class="article-image" src="img/appify.jpg">
-                            <div class="article-content">
-                                <h3 class="article-title">APPIFY</h3>
-                                <a href="https://github.com/udacity/Appify" class="article-link">Visit Appify</a>
-                            </div>
-                        </article>
-                        </td>
-                        <td>
-                            <article>
-                            <img class="article-image" src="img/sun-flower.jpg">
-                            <div class="article-content">
-                                <h3 class="article-title">SUNFLOWER</h3>
-                                <a href="https://github.com/udacity/Sunflower" class="article-link">Visit Sunflower</a>
-                            </div>
-                        </article>
-                        </td>
-                        <td>
-                            <article>
-                            <img class="article-image" src="img/bokeh.jpg">
-                            <div class="article-content">
-                                <h3 class="article-title">BOKEH</h3>
-                                <a href="https://github.com/udacity/Bokeh" class="article-link">Visit Bokeh</a>
-                            </div>
-                        </article>
-                        </td>
-                    </tr>
-                </table>
+                <!-- start table to responsive featured-work -->
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <td>
+                                <!-- start article -->
+                                <article>
+                                    <img class="article-image" src="img/appify.jpg" title="appify" alt="appify">
+                                    <div class="article-content">
+                                        <h3 class="article-title">APPIFY</h3>
+                                        <a href="https://github.com/udacity/Appify" class="article-link">Visit Appify</a>
+                                    </div>
+                                </article>
+                                <!-- end article -->
+                            </td>
+                            <td>
+                                <!-- start article -->
+                                <article>
+                                    <img class="article-image" src="img/sun-flower.jpg" title="sunflower" alt="sunflower">
+                                    <div class="article-content">
+                                        <h3 class="article-title">SUNFLOWER</h3>
+                                        <a href="https://github.com/udacity/Sunflower" class="article-link">Visit
+                                            Sunflower</a>
+                                    </div>
+                                </article>
+                                <!-- end article -->
+                            </td>
+                            <td>
+                                <!-- start article -->
+                                <article>
+                                    <img class="article-image" src="img/bokeh.jpg" title="Bokeh" alt="bokeh">
+                                    <div class="article-content">
+                                        <h3 class="article-title">BOKEH</h3>
+                                        <a href="https://github.com/udacity/Bokeh" class="article-link">Visit Bokeh</a>
+                                    </div>
+                                </article>
+                                <!-- end article -->
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- end table -->
             </div>
         </section>
+        <!-- start section -->
     </main>
+    <!-- end main -->
+    <!-- start footer -->
     <footer>
         <p>2018 &copy; Dina</p>
     </footer>
+    <!-- end footer -->
 </div>
-
 </body>
 </html>
